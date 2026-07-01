@@ -235,7 +235,7 @@
 <main>
 
 <h2 id="summary">🚀 Demo Summary</h2>
-<p>One storyline, one platform, three personas, tuned for Joe at the New Jersey Civil Service Commission. Follow <strong>Paul Marshall</strong> — a veteran the CSC Office of Outreach & Engagement met at a Bergen County career expo. He drives Vignette 1 (candidate). <strong>Anna Carter</strong> at NJ Department of Corrections picks him up in Vignette 2 (agency liaison). <strong>Jane Jones</strong> in NJCSC Central operates the platform end-to-end in Vignette 3 — bookended with analytics so leadership sees the outcome before and after the walkthrough.</p>
+<p>One storyline, one platform, three personas, tuned for Joe at the New Jersey Civil Service Commission. Follow <strong>Paul Marshall</strong> — a Rutgers CS senior the CSC Office of Outreach & Engagement met at a Bergen County career expo. He drives Vignette 1 (candidate). <strong>Anna Carter</strong> at the NJ Office of Information Technology picks him up in Vignette 2 (agency liaison). <strong>Jane Jones</strong> in NJCSC Central operates the platform end-to-end in Vignette 3 — bookended with analytics so leadership sees the outcome before and after the walkthrough.</p>
 <p><strong>~30 minutes total.</strong> Three vignettes. Same records, three surfaces, one platform.</p>
 
 <div class="callout joe">
@@ -244,8 +244,8 @@
 
 <h3 id="personas">Personas</h3>
 <div class="personas">
-  <div class="persona"><div class="name">👨 Paul Marshall</div><div class="role">Job seeker · Veteran · Bergen County · met at CSC expo</div></div>
-  <div class="persona"><div class="name">👩 Anna Carter</div><div class="role">Agency Liaison, NJ Dept of Corrections (partner agency)</div></div>
+  <div class="persona"><div class="name">👨 Paul Marshall</div><div class="role">Job seeker · Student (Rutgers CS, senior) · Bergen County · met at CSC expo</div></div>
+  <div class="persona"><div class="name">👩 Anna Carter</div><div class="role">Agency Liaison, NJ Office of Information Technology (partner agency)</div></div>
   <div class="persona"><div class="name">👩 Jane Jones</div><div class="role">NJCSC Central Recruiting Staff (OOE)</div></div>
 </div>
 
@@ -261,13 +261,13 @@
 <ol>
   <li><strong>Three browser sessions ready:</strong> Paul (incognito), Anna (Chrome profile B), Jane (main window).</li>
   <li><strong>CRM Analytics dashboard</strong> populated with four tiles: Pipeline funnel by initiative, Event ROI, Source of hire, DEI demographics.</li>
-  <li><strong>Hero event EVT-003 "Bergen County Law Enforcement Career Expo"</strong> exists on the calendar — linked to 4 partner agencies (NJ DOC, NJ State Police, Bergen County Sheriff, NJ Juvenile Justice), 40+ registered candidates, capacity/waitlist populated, marketing campaigns related.</li>
-  <li><strong>Recruitment Requisition RR-0000000006</strong> — Law Enforcement Training Coordinator, on behalf of NJ DOC — linked to EVT-003.</li>
-  <li><strong>Paul Marshall's Person Account</strong> exists with resume parsed and tagged: Veteran, Second Chance, Bergen County, Law Enforcement Interest. Login-As action tested.</li>
+  <li><strong>Hero event EVT-003 "Bergen County Careers in Public Service Expo"</strong> exists on the calendar — linked to 4 partner agencies (NJ OIT, NJ Department of the Treasury, Bergen County Government, NJ Department of Labor), 40+ registered candidates, capacity/waitlist populated, marketing campaigns related.</li>
+  <li><strong>Recruitment Requisition RR-0000000006</strong> — Front End Developer, on behalf of NJ OIT — linked to EVT-003.</li>
+  <li><strong>Paul Marshall's Person Account</strong> exists with resume parsed and tagged: Student (Rutgers CS), Early-Career Pipeline, Bergen County, Front-End Development Interest. Login-As action tested.</li>
   <li><strong>Concierge Agent</strong> active (Setup → Agents → NJCSC_Demo_Concierge on v6+).</li>
   <li><strong>Prompt Builder templates repaired:</strong> Parse Resume + Score Applications use <code>Input:Account.gps_Resume_Raw_Text__c</code>, activated, model set to GPT-4 Omni Mini. Second tab pre-opened to Score Applications template.</li>
-  <li><strong>Anna's Liaison Insights Dashboard</strong> pre-configured, scoped to NJ DOC via sharing rules.</li>
-  <li><strong>Service Console</strong> pinned Cases list "Open + Assigned to My Team"; hero case seeded — discrimination complaint, SLA breach in 4 hrs, evidence files, witnesses, activity timeline. Paul's veterans-preference case (opened live in V1) will appear in the same list.</li>
+  <li><strong>Anna's Liaison Insights Dashboard</strong> pre-configured, scoped to NJ OIT via sharing rules.</li>
+  <li><strong>Service Console</strong> pinned Cases list "Open + Assigned to My Team"; hero case seeded — discrimination complaint, SLA breach in 4 hrs, evidence files, witnesses, activity timeline. Paul's student-eligibility case (opened live in V1) will appear in the same list.</li>
   <li><strong>Outlook integration panel</strong> visible in the sidebar (or screenshot ready).</li>
   <li><strong>Public /eventregister route</strong> reachable without login in an incognito window.</li>
   <li><strong>Reset script</strong> at <code>scripts/apex/njcsc_reset_demo.apex</code> if rehearsing.</li>
@@ -280,7 +280,7 @@
   <p class="talk">The Civil Service Commission asked us to solve some very specific problems. Modernize Outreach and Engagement. Move off spreadsheets. Track diversity outcomes. Handle employee complaints professionally. And we're going to walk through every one of those today.</p>
   <p class="talk">But here's what I'd ask you to watch for underneath the demo — because the real question isn't 'can Salesforce do these things.' The answer is yes. The real question is: <strong>if we solve OOE today, what does the rest of the Commission look like in three years?</strong></p>
   <p class="talk">Every screen I'm about to show you sits on one platform. The same platform that runs 90% of the Fortune 500. The same platform that runs the State of California's DMV, the VA's benefits system, the City of Los Angeles' 311. When you invest here, you're not buying an OOE tool. You're standing up the foundation the entire Commission can build on — Licensing, Grants, Test Administration, Employee Onboarding, Investigations, Public Records requests — every one of them a module you can add to the same platform, sharing the same data, without another procurement cycle.</p>
-  <p class="talk">You're going to see three personas today. Paul, a veteran who walked into one of your career expos and had no idea CSC even existed. Anna, a hiring liaison at Corrections who's been trying for three months to find him. And Jane, in your OOE team, who runs the platform that connects them. Three people, one platform, same data.</p>
+  <p class="talk">You're going to see three personas today. Paul, a Rutgers computer science senior who walked into one of your career expos and had no idea CSC even existed. Anna, a hiring liaison at the Office of Information Technology who's been trying for three months to fill a front-end developer seat. And Jane, in your OOE team, who runs the platform that connects them. Three people, one platform, same data.</p>
   <p class="talk">So watch OOE work today. But hear me talking about the platform underneath. Because that's the decision you're actually making."</p>
 </div>
 
@@ -289,7 +289,7 @@
 <!-- ============================================================ -->
 <div class="vignette-header" id="v1">
   <h2>Vignette 1 — Paul: From Curious to Applied</h2>
-  <div class="beat">Story beat: Paul saw a flyer about the Bergen County Law Enforcement Career Expo. He's skeptical — government hiring is famously painful. He opens the portal to poke around. Thirty minutes later he's registered, has three interview slots booked, has submitted a formal application, and has a case open with CSC about his veterans preference eligibility.</div>
+  <div class="beat">Story beat: Paul saw a flyer about the Bergen County Careers in Public Service Expo. He's skeptical — government hiring is famously painful. He opens the portal to poke around. Thirty minutes later he's registered, has three interview slots booked, has submitted a formal application, and has a case open with CSC about how his in-progress Rutgers CS degree factors into the entry-level exam eligibility rules.</div>
   <div class="who">Desktop · Incognito window · Paul Marshall</div>
   <div class="time">⏱ ~7 min</div>
 </div>
@@ -324,7 +324,7 @@
     <div class="step-title">Live events & jobs from Salesforce</div>
     <div class="step-section"><div class="label">Click Path</div>Ask both questions, one after the other.</div>
     <div class="utterance"><span class="u-tag">Agent</span><div class="u-text">What hiring events are coming up?</div><button class="u-copy">Copy</button></div>
-    <div class="utterance"><span class="u-tag">Agent</span><div class="u-text">What law enforcement jobs are open right now?</div><button class="u-copy">Copy</button></div>
+    <div class="utterance"><span class="u-tag">Agent</span><div class="u-text">What entry-level tech jobs are open right now for a recent grad?</div><button class="u-copy">Copy</button></div>
     <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Two different questions, two different Apex actions, one agent. Add a job to Salesforce right now — the agent will find it. Nothing is cached, nothing is hand-curated."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Live SOQL through invocable actions.</strong> Apex for governor-limit control. An implementer could just as easily use Flow, a Data Table, or a Record Recommendation topic.</div></div>
     <div class="step-section screenshot">📷 Agent lists events, then jobs</div>
@@ -336,7 +336,8 @@
   <div class="step-body">
     <div class="step-title">Registration handoff (no URL — by design)</div>
     <div class="step-section"><div class="label">Click Path</div>Ask the utterance.</div>
-    <div class="utterance"><span class="u-tag">Agent</span><div class="u-text">I want to register for the Bergen County Law Enforcement Career Expo.</div><button class="u-copy">Copy</button></div>
+    <div class="utterance"><span class="u-tag">Agent</span><div class="u-text">I want to register for the Bergen County Careers in Public Service Expo.</div><button class="u-copy">Copy</button></div>
+    <div class="utterance"><span class="u-tag">Agent</span><div class="u-text">I'm a senior at Rutgers finishing a CS degree — am I eligible to apply for entry-level state IT roles?</div><button class="u-copy">Copy</button></div>
     <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Notice — no clickable link. This customer has Einstein Trust Layer masking every URL. Our agent respects that policy and hands off with numbered navigation instead. That's what compliance-aware AI looks like."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Einstein Trust Layer</strong> — masking, toxicity detection, prompt injection defense, zero data retention are on by default. Every AI response ran through it.</div></div>
     <div class="step-section screenshot">📷 Agent gives numbered navigation steps</div>
@@ -360,9 +361,9 @@
     <div class="step-title">Book three interview slots at three agencies</div>
     <div class="step-section"><div class="label">Click Path</div>On the Agency Interest Picker, note pre-selected agencies. Book slots:
       <ul>
-        <li>NJ Dept of Corrections — <strong>1:45 PM</strong></li>
-        <li>NJ State Police — <strong>2:15 PM</strong></li>
-        <li>Bergen County Sheriff — <strong>3:00 PM</strong></li>
+        <li>NJ Office of Information Technology — <strong>1:45 PM</strong></li>
+        <li>NJ Department of the Treasury (Digital Services) — <strong>2:15 PM</strong></li>
+        <li>Bergen County Government (Web Team) — <strong>3:00 PM</strong></li>
       </ul>
     </div>
     <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Three interviews at three agencies, self-scheduled in 30 seconds. Try that with a phone tree. The pre-selection uses Paul's Areas of Expertise — a picklist matched by Apex. Could be Einstein Recommendations. Could be a rule in Flow. We chose Apex for auditability."</div></div>
@@ -386,8 +387,8 @@
   <div class="num">8</div>
   <div class="step-body">
     <div class="step-title">Browse jobs & apply for a real role</div>
-    <div class="step-section"><div class="label">Click Path</div>Navigate to <strong>Jobs</strong> on the portal. Click <strong>Use your Resume to build your profile and find jobs</strong>. Upload <code>PM Resume DPS.docx</code>. Click <strong>Next</strong>. Wait for the resume-parse AI to run — personalized job recommendations appear.<br><br>Select <strong>Law Enforcement Training Coordinator</strong> (posting linked to RR-0000000006 at NJ DOC). Click <strong>Next</strong>. Click <strong>Apply</strong>. Land on the Application Overview — Personal Details, Work Experience, Education all pre-filled. Click into Education, verify, Save, Next, <strong>Submit</strong>.</div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Here's the moment that matters. Paul uploads his resume. Behind the scenes, a Prompt Template running on Einstein Generative AI parses the resume, extracts structured data, and matches him to open postings — and pre-fills every section of the application. What used to be 45 minutes of re-typing his life history becomes 3 clicks.<br><br>He picks the Law Enforcement Training Coordinator role at Corrections. Personal Details, Work Experience, Education — auto-populated. He verifies. He submits. That's it. First-touch to submission — under a minute."</div></div>
+    <div class="step-section"><div class="label">Click Path</div>Navigate to <strong>Jobs</strong> on the portal. Click <strong>Use your Resume to build your profile and find jobs</strong>. Upload <code>PM Resume OIT.docx</code>. Click <strong>Next</strong>. Wait for the resume-parse AI to run — personalized job recommendations appear.<br><br>Select <strong>Front End Developer</strong> (posting linked to RR-0000000006 at NJ OIT). Click <strong>Next</strong>. Click <strong>Apply</strong>. Land on the Application Overview — Personal Details, Work Experience, Education all pre-filled. Click into Education, verify, Save, Next, <strong>Submit</strong>.</div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Here's the moment that matters. Paul uploads his resume. Behind the scenes, a Prompt Template running on Einstein Generative AI parses the resume, extracts structured data, and matches him to open postings — and pre-fills every section of the application. What used to be 45 minutes of re-typing his coursework, internships, and side projects becomes 3 clicks.<br><br>He picks the Front End Developer role at the Office of Information Technology. Personal Details, Work Experience, Education — auto-populated straight off his Rutgers transcript and GitHub. He verifies. He submits. That's it. First-touch to submission — under a minute."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Prompt Builder (Parse Resume template) + Application Framework.</strong> Application Form is a first-class PSS object; sections configurable per posting. Any admin can add a section, change validation, or swap the model — no code.</div></div>
     <div class="step-section"><div class="label">Joe Beat</div><div class="joe-beat"><div class="lbl">Enterprise implication</div>The Application Form here is a custom object built on the standard platform. If the Commission ever needs a Grant Application, a Licensing Application, an Accommodation Request Application — same builder, same skills, same admins. You're not learning a new tool for every use case.</div></div>
     <div class="step-section screenshot">📷 Application Overview pre-filled → submitted confirmation</div>
@@ -400,9 +401,9 @@
     <div class="step-title">My Applications list</div>
     <div class="step-section"><div class="label">Click Path</div>Click the <strong>Applications</strong> tab in the portal nav. Pin the <strong>My Applications</strong> list view. Show 2–3 applications:
       <ul>
-        <li>Law Enforcement Training Coordinator — <em>Submitted</em> (just now)</li>
-        <li>Correctional Officer Trainee — <em>In Review</em></li>
-        <li>Public Safety Analyst — <em>Application Received</em></li>
+        <li>Front End Developer (NJ OIT) — <em>Submitted</em> (just now)</li>
+        <li>Junior Full Stack Developer (Bergen County Web Team) — <em>In Review</em></li>
+        <li>Data & Analytics Intern (NJ Treasury) — <em>Application Received</em></li>
       </ul>
       Click into the just-submitted one — show the stage path, submission date, next steps.
     </div>
@@ -417,7 +418,7 @@
   <div class="step-body">
     <div class="step-title">Open a case through the agent</div>
     <div class="step-section"><div class="label">Click Path</div>Back in the messenger, ask.</div>
-    <div class="utterance"><span class="u-tag">Agent</span><div class="u-text">Can someone follow up with me about veteran preference?</div><button class="u-copy">Copy</button></div>
+    <div class="utterance"><span class="u-tag">Agent</span><div class="u-text">Can someone follow up with me about how my in-progress Rutgers CS degree counts toward the entry-level exam eligibility?</div><button class="u-copy">Copy</button></div>
     <div class="step-section"><div class="label">Talk Track</div><div class="talk">"The agent knows this is a human question, not a data question. It opens a real Case, tags the topic, routes to CSC's central queue. Paul gets a case number and a status page. Jane's going to see this case in her console later."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Agentforce → Service Cloud</strong> — one integration point, zero glue code. Case appears in Jane's console in seconds, with an audit trail of the conversation that created it.</div></div>
     <div class="step-section screenshot">📷 Agent confirming case number</div>
@@ -436,7 +437,7 @@
 </div>
 
 <div class="beat-close">
-  <strong>Beat close:</strong> "In seven minutes, Paul went from 'never used NJCSC' to registered for the expo, three interview slots booked, a formal application submitted to Corrections, and a case open with central staff — all self-service, all on Salesforce. Now let's meet Anna, who's waiting on the other end."
+  <strong>Beat close:</strong> "In seven minutes, Paul went from 'never used NJCSC' to registered for the expo, three interview slots booked, a formal application submitted to the Office of Information Technology, and a case open with central staff — all self-service, all on Salesforce. Now let's meet Anna, who's waiting on the other end."
 </div>
 
 <!-- ============================================================ -->
@@ -444,8 +445,8 @@
 <!-- ============================================================ -->
 <div class="vignette-header" id="v2">
   <h2>Vignette 2 — Anna: From Demand to Decision</h2>
-  <div class="beat">Story beat: Anna at NJ Dept of Corrections has been trying for three months to hire a Law Enforcement Training Coordinator. She submitted the requisition, then… silence. Today she logs in and sees Paul is coming to her booth on Thursday. She also has a new opening she needs to publish — three Correctional Officer Trainee slots for the Bergen cohort.</div>
-  <div class="who">Desktop · Chrome profile B · Anna Carter, NJ DOC Liaison</div>
+  <div class="beat">Story beat: Anna at NJ Office of Information Technology has been trying for three months to hire a Front End Developer. She submitted the requisition, then… silence. Today she logs in and sees Paul is coming to her booth on Thursday. She also has a new opening she needs to publish — three Junior Full Stack Developer slots for the Bergen cohort.</div>
+  <div class="who">Desktop · Chrome profile B · Anna Carter, NJ OIT Liaison</div>
   <div class="time">⏱ ~7 min</div>
 </div>
 
@@ -454,7 +455,7 @@
   <div class="step-body">
     <div class="step-title">Liaison Insights Dashboard</div>
     <div class="step-section"><div class="label">Click Path</div>Log in as Anna. Land on the <strong>Liaison Insights Dashboard</strong>.</div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Every agency has one of these. Anna's dashboard is scoped to NJ DOC — pipeline health, upcoming interviews, agency coverage, AI matches, next 5 candidates to act on. She doesn't see other agencies' data."</div></div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Every agency has one of these. Anna's dashboard is scoped to NJ OIT — pipeline health, upcoming developer interviews, agency coverage, AI matches, next 5 candidates to act on. She doesn't see other agencies' data."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Row-level security through sharing rules on Account (agency).</strong> No custom auth code — standard Salesforce sharing. Change the rule, change what she sees.</div></div>
     <div class="step-section"><div class="label">Joe Beat</div><div class="joe-beat"><div class="lbl">Enterprise implication</div>Same sharing model that isolates 60 partner agencies today will isolate 60 grant programs tomorrow, 60 licensing categories after that. Multi-tenant on one org — solved once, applied everywhere.</div></div>
     <div class="step-section screenshot">📷 Insights dashboard with KPIs</div>
@@ -467,9 +468,9 @@
     <div class="step-title">Submit a new hiring need</div>
     <div class="step-section"><div class="label">Click Path</div>Click <strong>My Hiring Needs</strong> → <strong>New Hiring Need</strong>. Fill:
       <ul>
-        <li>Title: <strong>Correctional Officer Trainee (Bergen cohort)</strong></li>
+        <li>Title: <strong>Junior Full Stack Developer (Bergen cohort)</strong></li>
         <li>Headcount: <strong>3</strong></li>
-        <li>Areas of Expertise: <strong>Public Safety; Law Enforcement</strong></li>
+        <li>Areas of Expertise: <strong>Technology & Data; Web Development</strong></li>
       </ul>
       Save.
     </div>
@@ -483,8 +484,8 @@
   <div class="num">3</div>
   <div class="step-body">
     <div class="step-title">Liaison Event Day Panel</div>
-    <div class="step-section"><div class="label">Click Path</div>Open <strong>Outreach Events</strong> → <em>Bergen County Law Enforcement Career Expo (EVT-003)</em>. Show the <strong>Liaison Event Day Panel</strong>.</div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Every attendee coming to NJ DOC — with expertise, career stage, veteran status, and the exact slot they booked. Anna sees Paul at 1:45 PM. Remember him? He just booked that slot in the last vignette. Anna sees it in real time."</div></div>
+    <div class="step-section"><div class="label">Click Path</div>Open <strong>Outreach Events</strong> → <em>Bergen County Careers in Public Service Expo (EVT-003)</em>. Show the <strong>Liaison Event Day Panel</strong>.</div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Every attendee coming to NJ OIT — with expertise, career stage, student status, and the exact slot they booked. Anna sees Paul at 1:45 PM. Remember him? He just booked that slot in the last vignette. Anna sees it in real time."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Custom LWC with tab-scoped queries.</strong> Could also be a Report chart, a Related List, or a Dashboard component. We chose LWC for interaction density.</div></div>
     <div class="step-section screenshot">📷 Event page showing Paul at 1:45 PM slot</div>
   </div>
@@ -506,7 +507,7 @@
   <div class="step-body">
     <div class="step-title">Candidate Tracking Panel</div>
     <div class="step-section"><div class="label">Click Path</div>Click Paul from the attendee list. Show the <strong>Candidate Tracking Panel</strong>: stage, interview time, notes.</div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Paul's card. Anna moves him through stages without navigating away. Notes are inline, timestamps automatic. She can see he already submitted the Law Enforcement Training Coordinator application — she's not starting cold."</div></div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Paul's card. Anna moves him through stages without navigating away. Notes are inline, timestamps automatic. She can see he already submitted the Front End Developer application — she's not starting cold."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>LWC editable-in-place</strong> on the record page. Same pattern is available in standard Salesforce as Dynamic Forms — we went custom for the specific field set.</div></div>
     <div class="step-section screenshot">📷 Candidate card</div>
   </div>
@@ -517,7 +518,7 @@
   <div class="step-body">
     <div class="step-title">AI Candidate Fit</div>
     <div class="step-section"><div class="label">Click Path</div>Scroll to <strong>AI Candidate Fit</strong>. Show 92% score + rationale.</div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Prompt Builder scores Paul's résumé against DOC's Training Coordinator need. 92% fit, with a two-sentence explanation. Not a black box — she sees the reasoning."</div></div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Prompt Builder scores Paul's résumé — coursework, GitHub, internship, portfolio site — against OIT's Front End Developer need. 92% fit, with a two-sentence explanation. Not a black box — she sees the reasoning."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Prompt Builder Flex template</strong> — authored in Setup, reviewable, versionable, and it runs through Trust Layer masking. Swap in Claude, GPT, or the Salesforce-native model without changing the LWC.</div></div>
     <div class="step-section screenshot">📷 AI Fit Panel — 92% score + rationale</div>
   </div>
@@ -527,8 +528,8 @@
   <div class="num">7</div>
   <div class="step-body">
     <div class="step-title">Cross-Agency Match Panel</div>
-    <div class="step-section"><div class="label">Click Path</div>Click <strong>Cross-Agency Match Panel</strong>. Show 3–4 other roles Paul fits across NJ State Police, Bergen Sheriff, Juvenile Justice.</div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"This is the CSC magic. Paul applied to Corrections — but he fits four other agencies. Anna flags it up to Jane at CSC Central. The whole point of a Civil Service Commission is cross-agency mobility, and this makes it operational."</div></div>
+    <div class="step-section"><div class="label">Click Path</div>Click <strong>Cross-Agency Match Panel</strong>. Show 3–4 other roles Paul fits across NJ Treasury Digital Services, Bergen County Web Team, and NJ Department of Labor's Modernization Office.</div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"This is the CSC magic. Paul applied to OIT — but he fits four other agencies that also need front-end talent. Anna flags it up to Jane at CSC Central. The whole point of a Civil Service Commission is cross-agency mobility, and this makes it operational."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Same Prompt Builder pattern, different prompt.</strong> Ask a question, get scored options, ship them to a panel. The panel is composable — the implementer decides whether to add it to Contact, Application, or a home dashboard.</div></div>
     <div class="step-section"><div class="label">Joe Beat</div><div class="joe-beat"><div class="lbl">Enterprise implication</div>You buy AI once for the Commission. Same Prompt Builder + Trust Layer powering candidate matching today powers grant scoring, licensing risk, case pattern detection tomorrow. One AI backbone, one governance model.</div></div>
     <div class="step-section screenshot">📷 Cross-agency panel with 4 role cards</div>
@@ -578,7 +579,7 @@
 <!-- ============================================================ -->
 <div class="vignette-header" id="v3">
   <h2>Vignette 3 — Jane: The Platform Operator</h2>
-  <div class="beat">Story beat: Jane is CSC Central. She doesn't hire — she runs the platform that lets every agency hire. Today: open with the state-wide dashboard, walk the event she just ran, work Paul's veteran-preference case, review his application and Person Account, show the AI backstage, connect Outlook, manage the intake queue, and close with the same dashboard filtered live to prove the outcome.</div>
+  <div class="beat">Story beat: Jane is CSC Central. She doesn't hire — she runs the platform that lets every agency hire. Today: open with the state-wide dashboard, walk the event she just ran, work Paul's student-eligibility case, review his application and Person Account, show the AI backstage, connect Outlook, manage the intake queue, and close with the same dashboard filtered live to prove the outcome.</div>
   <div class="who">Desktop · Main window · Jane Jones, NJCSC Central</div>
   <div class="time">⏱ ~16 min</div>
 </div>
@@ -593,7 +594,7 @@
   <div class="step-body">
     <div class="step-title">Open the CRM Analytics dashboard, unfiltered</div>
     <div class="step-section"><div class="label">Click Path</div>App Launcher → <strong>NJCSC OOE Analytics</strong>. Land on the dashboard, unfiltered. Point in order — Pipeline funnel by initiative → Event ROI → Source of hire → DEI demographics. Do <em>not</em> filter yet.</div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Before I show you a single record on Jane's side, I want to start where every Commissioner conversation starts — with outcomes. This is the dashboard your leadership team, the Governor's office, and the legislature can open on any Monday morning. It answers the four questions OOE gets asked the most and can't answer today with spreadsheets.<br><br>How is our diversity pipeline actually performing — where are Veterans, Second Chance, Women in Leadership candidates dropping off?<br><br>Which of our 50-plus annual events are generating placements — and which are costing us money without moving the needle?<br><br>Where do our best candidates come from? Job fairs? Community partners? Correctional facility outreach?<br><br>Today, answering any one of these takes a staffer three days of pulling spreadsheets. On Salesforce, it's the home screen. Now — let me show you how every one of those numbers gets there. We already followed Paul and Anna. Now we're going to see the platform that makes it possible, and by the time we come back to this dashboard, you'll see exactly how each of these metrics is fed, live, from the work you just watched."</div></div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Before I show you a single record on Jane's side, I want to start where every Commissioner conversation starts — with outcomes. This is the dashboard your leadership team, the Governor's office, and the legislature can open on any Monday morning. It answers the four questions OOE gets asked the most and can't answer today with spreadsheets.<br><br>How is our diversity pipeline actually performing — where are Early-Career, Second Chance, Women in Leadership candidates dropping off?<br><br>Which of our 50-plus annual events are generating placements — and which are costing us money without moving the needle?<br><br>Where do our best candidates come from? Job fairs? Community partners? University pipelines like Rutgers, NJIT, Rowan?<br><br>Today, answering any one of these takes a staffer three days of pulling spreadsheets. On Salesforce, it's the home screen. Now — let me show you how every one of those numbers gets there. We already followed Paul and Anna. Now we're going to see the platform that makes it possible, and by the time we come back to this dashboard, you'll see exactly how each of these metrics is fed, live, from the work you just watched."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>CRM Analytics</strong> — dashboards run on the same data model as every record you'll see today. No extract, no data warehouse, no BI license required for standard reports.</div></div>
     <div class="step-section"><div class="label">Joe Beat</div><div class="joe-beat"><div class="lbl">Enterprise implication</div>The dashboard exists because the platform captures every interaction as structured data. Every module you add later — Licensing, Grants, Investigations — feeds this same analytics layer without a new BI project.</div></div>
     <div class="step-section screenshot">📷 4-tile dashboard, unfiltered, full-state view</div>
@@ -627,12 +628,12 @@
     <div class="step-title">Tour the calendar, then create a new event</div>
     <div class="step-section"><div class="label">Click Path</div>Click into the <strong>Events</strong> calendar view. Sweep across the month. Then click <strong>New Event</strong>. Fill quickly:
       <ul>
-        <li>Name: <strong>Passaic County Veterans Career Expo</strong></li>
+        <li>Name: <strong>Passaic County Early-Career Tech Expo</strong></li>
         <li>Date: two weeks from today</li>
         <li>Location: Passaic County Community College</li>
         <li>Capacity: 150</li>
         <li>Type: Career Fair</li>
-        <li>Initiative: <strong>Veterans Pipeline</strong></li>
+        <li>Initiative: <strong>Early-Career / University Pipeline</strong></li>
       </ul>
       Save.
     </div>
@@ -652,11 +653,11 @@
   <div class="num">4</div>
   <div class="step-body">
     <div class="step-title">Event details, agencies, candidates</div>
-    <div class="step-section"><div class="label">Click Path</div>Navigate back to calendar → click <strong>EVT-003 "Bergen County Law Enforcement Career Expo"</strong>. On the record:
+    <div class="step-section"><div class="label">Click Path</div>Navigate back to calendar → click <strong>EVT-003 "Bergen County Careers in Public Service Expo"</strong>. On the record:
       <ul>
         <li>Header metrics: 87 Registered · 61 Checked-In · 26 No-Shows</li>
-        <li><strong>Participating Agencies</strong> related list — NJ DOC, State Police, Bergen Sheriff, JJC</li>
-        <li><strong>Registered Candidates</strong> related list — 40+ candidates; Paul Marshall visible with his tags (Veteran, Bergen County, Law Enforcement Interest)</li>
+        <li><strong>Participating Agencies</strong> related list — NJ OIT, NJ Treasury Digital Services, Bergen County Web Team, NJ Dept of Labor Modernization</li>
+        <li><strong>Registered Candidates</strong> related list — 40+ candidates; Paul Marshall visible with his tags (Student, Rutgers CS, Bergen County, Front-End Development Interest)</li>
         <li>Activity timeline — planning emails, agency confirmations</li>
       </ul>
     </div>
@@ -675,8 +676,8 @@
   <div class="num">5</div>
   <div class="step-body">
     <div class="step-title">Marketing Campaigns tied to the event</div>
-    <div class="step-section"><div class="label">Click Path</div>Stay on EVT-003. Scroll to <strong>Marketing Campaigns / Journeys</strong> related list. Point at: "Veterans in Law Enforcement — 30-day nurture", "Bergen County Registration Push", "Post-event follow-up drip".</div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"This is where what my colleague Anna from the Marketing Cloud team walked you through last week connects. Remember when she showed you Marketing Cloud building a segmented journey — 'every veteran in our database interested in law enforcement, in Bergen or Passaic County, engagement score over 60'? That segment, that email, that journey — it lives right here, attached to this event.<br><br>Which means when we come back to the dashboard, we can attribute this event's ROI to the campaign that filled the seats. Cost per registration. Cost per placement. Marketing and Recruitment stop being two departments guessing at each other's numbers — they're one team, one funnel, one platform."</div></div>
+    <div class="step-section"><div class="label">Click Path</div>Stay on EVT-003. Scroll to <strong>Marketing Campaigns / Journeys</strong> related list. Point at: "Rutgers & NJIT CS Seniors — 30-day nurture", "Bergen County Registration Push", "Post-event follow-up drip".</div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"This is where what my colleague Anna from the Marketing Cloud team walked you through last week connects. Remember when she showed you Marketing Cloud building a segmented journey — 'every graduating CS or IT student in our database, in Bergen or Passaic County, engagement score over 60'? That segment, that email, that journey — it lives right here, attached to this event.<br><br>Which means when we come back to the dashboard, we can attribute this event's ROI to the campaign that filled the seats. Cost per registration. Cost per placement. Marketing and Recruitment stop being two departments guessing at each other's numbers — they're one team, one funnel, one platform."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Marketing Cloud + Sales Cloud data unification.</strong> Campaigns are a standard Salesforce object. Marketing Cloud journeys write member status back — real-time attribution end to end.</div></div>
     <div class="step-section"><div class="label">Joe Beat</div><div class="joe-beat"><div class="lbl">Enterprise implication</div>Same record, in every module, in real time. That's what 'platform' actually means. Not 'we integrate well.'</div></div>
     <div class="step-section screenshot">📷 Marketing Campaigns related list</div>
@@ -692,7 +693,7 @@
   <div class="num">6</div>
   <div class="step-body">
     <div class="step-title">Open the Requisition, see Paul at the top of the scored list</div>
-    <div class="step-section"><div class="label">Click Path</div>From EVT-003 → click linked <strong>Recruitment Requisition RR-0000000006</strong> (Law Enforcement Training Coordinator, on behalf of NJ DOC). Click the <strong>Applications</strong> tab. Point at Paul at the top (starred), score visible. Click into Paul's Application Form Relation → drill into the scoring breakdown by category (Education, Experience, Skills, Location — 1–10 with rationale).</div>
+    <div class="step-section"><div class="label">Click Path</div>From EVT-003 → click linked <strong>Recruitment Requisition RR-0000000006</strong> (Front End Developer, on behalf of NJ OIT). Click the <strong>Applications</strong> tab. Point at Paul at the top (starred), score visible. Click into Paul's Application Form Relation → drill into the scoring breakdown by category (Education, Experience, Skills, Location — 1–10 with rationale).</div>
     <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Remember Paul submitted this application in Vignette 1? Here it is on Jane's side. And here's what Salesforce already did before Jane logged in this morning. Every application scored. Paul at the top. Education, experience, skills, location — each scored 1 to 10, transparently, against the actual job description. Not a black box — Jane can click any score and see exactly why the AI ranked it that way.<br><br>This is what defensible AI looks like for public sector. Every score is auditable. Every prompt is inspectable. If a candidate ever asks 'why wasn't I ranked higher?', OOE has an answer — and a record."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Prompt Builder — Score Applications template.</strong> Trust Layer applied. Every invocation logged.</div></div>
     <div class="step-section screenshot">📷 Scored applications + detailed breakdown</div>
@@ -713,12 +714,12 @@
         <li><strong>Application Overview</strong> — Personal Details, Work Experience, Education (pre-filled from resume)</li>
         <li><strong>Details</strong> — source event = EVT-003</li>
         <li><strong>Documents</strong> — uploaded resume + parsed raw text</li>
-        <li><strong>Competencies</strong> — tactical training, communication, incident command</li>
-        <li><strong>Examinations</strong> — CompTIA Security+, PTC hours</li>
+        <li><strong>Competencies</strong> — JavaScript, React, TypeScript, accessibility (WCAG 2.2), Git</li>
+        <li><strong>Examinations</strong> — expected BS in Computer Science (Rutgers, May 2026), AWS Cloud Practitioner</li>
       </ul>
       Point at the Path: <strong>Submitted → In Review → Interview → Offer</strong>.
     </div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Everything filled in here — none of it was typed. Paul's resume was parsed by Prompt Builder and populated every field. Nine minutes of typing became ten seconds.<br><br>The competencies and examinations matter for your world specifically. Public sector hiring is credentialed. Officers need certifications. Trainers need endorsements. Correctional staff need PTC hours. Salesforce tracks all of it, per candidate, and matches it against what the requisition requires. When Anna opens this record, she doesn't hunt through the resume for Security+ — it's a field, on a record, verifiable, reportable."</div></div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Everything filled in here — none of it was typed. Paul's resume was parsed by Prompt Builder and populated every field. Nine minutes of typing became ten seconds.<br><br>The competencies and examinations matter for your world specifically. Public sector hiring is credentialed. Developers need proof of stack fluency. Entry-level candidates need transcripts and expected graduation dates. Certain roles need cloud certifications. Salesforce tracks all of it, per candidate, and matches it against what the requisition requires. When Anna opens this record, she doesn't hunt through the resume for AWS Cloud Practitioner — it's a field, on a record, verifiable, reportable."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>PSS Application Form object + related credentials.</strong> Path is standard. Stage changes fire Flow — no code.</div></div>
     <div class="step-section screenshot">📷 Application Form tabs + Path</div>
   </div>
@@ -735,14 +736,14 @@
     <div class="step-title">Lifetime record + AI Flex recommended postings</div>
     <div class="step-section"><div class="label">Click Path</div>From the Application Form, click linked <strong>Account: Paul Marshall</strong>. On Paul's Person Account, walk:
       <ul>
-        <li>Header — contact, address, veteran status, demographic tags</li>
+        <li>Header — contact, address, career stage (Student), demographic tags</li>
         <li><strong>Applications</strong> related list — every application across every agency</li>
         <li><strong>Event Registrations</strong> — every CSC event attended</li>
         <li>Activity timeline — every email, call, task</li>
         <li><strong>Recommended Postings</strong> LWC — 5–7 open reqs ranked by fit, with rationale</li>
       </ul>
     </div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Step out of one application. See Paul as a person. This is his lifetime CSC record. Every application, every event, every email — right here.<br><br>Now here is the part that changes OOE's mission. Recommended Postings. The AI has scanned every open requisition across your 60 partner agencies and identified the seven Paul is a strong fit for right now. State Police just posted a training coordinator role. Bergen Sheriff needs a bilingual community liaison.<br><br>Jane doesn't chase Paul for one job. She engages him with a career. And when Paul places at any one of those agencies, that placement is attributed back to EVT-003 — closing the loop we started at the top of this vignette."</div></div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"Step out of one application. See Paul as a person. This is his lifetime CSC record. Every application, every event, every email — right here.<br><br>Now here is the part that changes OOE's mission. Recommended Postings. The AI has scanned every open requisition across your 60 partner agencies and identified the seven Paul is a strong fit for right now. Treasury just posted a UI Engineer role. Bergen County needs a junior full-stack developer.<br><br>Jane doesn't chase Paul for one job. She engages him with a career. And when Paul places at any one of those agencies, that placement is attributed back to EVT-003 — closing the loop we started at the top of this vignette."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Person Account + Prompt Builder Flex template.</strong> Grounded on Person Account fields + all open Recruitment Postings. Reads permissions — Anna sees her agency's; Jane sees everything.</div></div>
     <div class="step-section"><div class="label">Joe Beat</div><div class="joe-beat"><div class="lbl">Enterprise implication</div>One person — one record — across every interaction with any part of CSC. Talent pipeline today. Tomorrow, an employee. Later, a retiree. Later still, a witness in an investigation. Same record. Fifteen years of continuity.</div></div>
     <div class="step-section screenshot">📷 Person Account with Recommended Postings expanded</div>
@@ -792,7 +793,7 @@
   <div class="num">11</div>
   <div class="step-body">
     <div class="step-title">Cases list → work Paul's case + walk the hero discrimination complaint</div>
-    <div class="step-section"><div class="label">Click Path</div>App Launcher → <strong>Service Console</strong>. Land on the pinned <strong>Cases list</strong>. Point out variety: Discrimination Complaint, Accommodation Request, General Inquiry, Investigation. Spot <strong>Paul Marshall's veterans-preference case</strong> from V1 in the list — click it briefly.<br><br>Then click the hero case: <strong>"Discrimination Complaint — Agency X — SLA breach in 4 hrs"</strong>. Walk it:
+    <div class="step-section"><div class="label">Click Path</div>App Launcher → <strong>Service Console</strong>. Land on the pinned <strong>Cases list</strong>. Point out variety: Discrimination Complaint, Accommodation Request, General Inquiry, Investigation. Spot <strong>Paul Marshall's student-eligibility case</strong> from V1 in the list — click it briefly.<br><br>Then click the hero case: <strong>"Discrimination Complaint — Agency X — SLA breach in 4 hrs"</strong>. Walk it:
       <ul>
         <li>Header — case type, priority, SLA milestone counting down</li>
         <li>Related contact (confidential access)</li>
@@ -803,7 +804,7 @@
       Open <strong>Einstein Copilot</strong> from the utility bar.
     </div>
     <div class="utterance"><span class="u-tag copilot">Copilot</span><div class="u-text">Summarize this case for me and draft a reply that acknowledges receipt and sets a 5-day expectation.</div><button class="u-copy">Copy</button></div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"This is the other half of OOE's mandate — Employee Support Services. Every complaint, every accommodation request, every workplace inquiry across 70,000 public employees — lives in email and shared folders today. Tomorrow, here.<br><br>Look at this list. Sixty-three open cases. SLA clocks. Priority-flagged. Some confidential — role-based sharing enforced by the platform, not by policy.<br><br>Notice Paul Marshall's veterans-preference case? He opened that as a candidate in Vignette 1. Jane sees it in the same queue as every other case.<br><br>Now the hero case. Discrimination complaint, filed six days ago, SLA breaches in four hours. Everything already on the record — complainant, witnesses, evidence files, investigation timeline. One record. Not fourteen emails.<br><br>The pattern behind this case — third complaint from the same agency in ninety days. That's a system-generated insight. Today you'd never know. Tomorrow it's a dashboard tile.<br><br>And Copilot — Jane's internal AI. Summarizes the case. Drafts the reply. She reads it, tweaks one line, sends. AI stops being a chatbot, starts being a productivity tool for your investigators."</div></div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"This is the other half of OOE's mandate — Employee Support Services. Every complaint, every accommodation request, every workplace inquiry across 70,000 public employees — lives in email and shared folders today. Tomorrow, here.<br><br>Look at this list. Sixty-three open cases. SLA clocks. Priority-flagged. Some confidential — role-based sharing enforced by the platform, not by policy.<br><br>Notice Paul Marshall's student-eligibility case? He opened that as a candidate in Vignette 1. Jane sees it in the same queue as every other case.<br><br>Now the hero case. Discrimination complaint, filed six days ago, SLA breaches in four hours. Everything already on the record — complainant, witnesses, evidence files, investigation timeline. One record. Not fourteen emails.<br><br>The pattern behind this case — third complaint from the same agency in ninety days. That's a system-generated insight. Today you'd never know. Tomorrow it's a dashboard tile.<br><br>And Copilot — Jane's internal AI. Summarizes the case. Drafts the reply. She reads it, tweaks one line, sends. AI stops being a chatbot, starts being a productivity tool for your investigators."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>Standard Service Console + Case object + Entitlements/SLA + Sharing Rules + Einstein Copilot.</strong> Same product Salesforce ships to every service org.</div></div>
     <div class="step-section"><div class="label">Joe Beat</div><div class="joe-beat"><div class="lbl">Enterprise implication</div>Completely different business function — Employee Support — running on the same platform as Talent Recruitment. Different app, different users, different security model. Same records underneath. Add Legal, Compliance, or IT Service Management next — you're not buying another system. You're turning on another app.</div></div>
     <div class="step-section screenshot">📷 Cases list + hero case detail + Copilot draft</div>
@@ -834,18 +835,18 @@
 <div class="step" id="v3-13">
   <div class="num">13</div>
   <div class="step-body">
-    <div class="step-title">Filter the dashboard to EVT-003 + Veterans Pipeline</div>
-    <div class="step-section"><div class="label">Click Path</div>Return to the CRM Analytics dashboard from Step 1. Filter by <strong>Bergen County Law Enforcement Career Expo (EVT-003)</strong> and <strong>Initiative = Veterans Pipeline</strong>. Tiles update live:
+    <div class="step-title">Filter the dashboard to EVT-003 + Early-Career Pipeline</div>
+    <div class="step-section"><div class="label">Click Path</div>Return to the CRM Analytics dashboard from Step 1. Filter by <strong>Bergen County Careers in Public Service Expo (EVT-003)</strong> and <strong>Initiative = Early-Career / University Pipeline</strong>. Tiles update live:
       <ul>
         <li>Funnel: 87 registered → 61 attended → 42 applied → 12 interviewed → 3 placed</li>
         <li>Event ROI: cost per placement, attributed source</li>
         <li>Source of hire: EVT-003 now attributable</li>
-        <li>Demographics: veteran %, Second Chance %, county distribution</li>
+        <li>Demographics: student/early-career %, Second Chance %, county distribution</li>
       </ul>
     </div>
-    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"We started this vignette here. Let's finish here.<br><br>Same dashboard I opened with. But now, watch what happens when I filter to the event we just walked through. Bergen County Career Expo. Veterans Pipeline.<br><br>Eighty-seven candidates registered. Sixty-one showed up. Forty-two applied. Twelve made it to interview. Three placed — one of them Paul, one at Corrections, two at State Police.<br><br>Every number on this screen is a click away from the underlying record. The Commissioner can click 'three placed' and see the actual people. The Governor's office can click 'Veterans Pipeline' and see the year-over-year trend. Your grant reporting to the legislature stops being a fire drill and starts being a screenshot.<br><br>This is the transformation. Not more software. Not another spreadsheet. This is OOE going from a team that runs events and hopes for the best to a team that runs a data-driven talent pipeline for the entire state of New Jersey — and can prove it.<br><br>That's what we're actually here to build with you."</div></div>
+    <div class="step-section"><div class="label">Talk Track</div><div class="talk">"We started this vignette here. Let's finish here.<br><br>Same dashboard I opened with. But now, watch what happens when I filter to the event we just walked through. Bergen County Careers in Public Service Expo. Early-Career / University Pipeline.<br><br>Eighty-seven candidates registered. Sixty-one showed up. Forty-two applied. Twelve made it to interview. Three placed — one of them Paul, hired at the Office of Information Technology, two at Treasury's Digital Services team.<br><br>Every number on this screen is a click away from the underlying record. The Commissioner can click 'three placed' and see the actual people. The Governor's office can click 'Early-Career Pipeline' and see the year-over-year trend. Your grant reporting to the legislature stops being a fire drill and starts being a screenshot.<br><br>This is the transformation. Not more software. Not another spreadsheet. This is OOE going from a team that runs events and hopes for the best to a team that runs a data-driven talent pipeline for the entire state of New Jersey — and can prove it.<br><br>That's what we're actually here to build with you."</div></div>
     <div class="step-section"><div class="label">Platform</div><div class="platform"><strong>CRM Analytics filter chain.</strong> Every filter is auditable, shareable, permission-scoped. Dashboard binds to raw platform data — no ETL delay.</div></div>
-    <div class="step-section screenshot">📷 Dashboard filtered to EVT-003 + Veterans Pipeline</div>
+    <div class="step-section screenshot">📷 Dashboard filtered to EVT-003 + Early-Career Pipeline</div>
   </div>
 </div>
 
